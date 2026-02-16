@@ -8,7 +8,7 @@ def taxcalc():
       ninc=(inc-tax)
       print("Your net income is",ninc)
   elif 4001<=inc<=7000:
-      tax=(tax*20/100)
+      tax=(inc*20/100)
       print("You have to pay a tax of",tax)
       ninc=(inc-tax)
       print("Your net income is",ninc)
