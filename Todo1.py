@@ -1,5 +1,5 @@
 print("=== To-Do List===")
-todo=["Study history, write bio lab report"]
+todo=["Study history", "write bio lab report"]
 comp=[]
 print(todo)
 print("===Completed===")
@@ -8,14 +8,14 @@ def add_task():
    add=input("What do you want to add?")
    todo.append(add)
   
-  def remove_task():
+def remove_task():
    remove=input("What do you want to remove?")
    if remove in todo:
     todo.remove(remove)
    else:
-    print(edit,"is not found in the list.")
+    print(remove,"is not found in the list.")
   
-  def edit_task():
+def edit_task():
    edit=input("Which task do you want to edit?")
    if edit in todo:
     todo.remove(edit)
@@ -24,7 +24,7 @@ def add_task():
    else:
     print(edit,"is not found in the list.")
      
-  def mark_as_completed():
+def mark_as_completed():
     completed=input("Which task did you complete?")
     if completed in todo:
      todo.remove(completed)
