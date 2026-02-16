@@ -22,7 +22,7 @@ def taxcalc():
       print("You have to pay a tax of",tax)
       ninc=(inc-tax)
       print("Your net income is",ninc)
-  elif 14000<=inc:
+  elif 14001<=inc:
       tax=(inc*35/100)
       print("You have to pay a tax of",tax)
       ninc=(inc-tax)
