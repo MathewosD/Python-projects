@@ -21,7 +21,6 @@ def add_task():
     todo.remove(edit)
     add=input("What will you replace it with?")
     todo.append(add)
-
    else:
     print(edit,"is not found in the list.")
      
