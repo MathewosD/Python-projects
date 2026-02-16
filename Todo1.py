@@ -28,7 +28,7 @@ def add_task():
     completed=input("Which task did you complete?")
     if completed in todo:
      todo.remove(completed)
-     comp.add(completed)
+     comp.append(completed)
 
 while True:
   print("""
