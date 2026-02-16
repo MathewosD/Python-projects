@@ -4,10 +4,7 @@ comp=[]
 print(todo)
 print("===Completed===")
 print(comp)
-
-while True:
-
-  def add_task():
+def add_task():
    add=input("What do you want to add?")
    todo.append(add)
   
@@ -33,6 +30,10 @@ while True:
     if completed in todo:
      todo.remove(completed)
      comp.add(completed)
+
+while True:
+
+
   print("""
   1-Add new task
   2-Remove task
