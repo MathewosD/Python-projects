@@ -32,8 +32,6 @@ def add_task():
      comp.add(completed)
 
 while True:
-
-
   print("""
   1-Add new task
   2-Remove task
